@@ -1,6 +1,6 @@
 <h3>Todos Index Route</h3>
 <ul>
-  {{#each todo in model}}
+  {{#each model as |todo|}}
     <li>{{todo.description}}</li>
   {{/each}}
 </ul>

@@ -1,5 +1,5 @@
 import DS from 'ember-data';
 
-export default DS.JSONAPISerializer.extend({
-  // namespace: 'api/v1'
+export default DS.ActiveModelAdapter.extend({
+  namespace: 'api/v1'
 });
